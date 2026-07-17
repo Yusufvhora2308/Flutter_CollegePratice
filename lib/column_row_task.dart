@@ -109,10 +109,98 @@ class columnrowtask extends StatelessWidget {
               ),
 
             ],
-          )
+          ),
+          Row(
+            children: [
+              Column(
+                children: [
+                  Column(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Container(
+                          height: 50,
+                          width: 110,
+                          color: Colors.grey,
+                        ),
+                      ),
+                      Container(
+                        height: 50,
+                        width: 110,
+                        color: Colors.grey,
+                      ),
+                    ],
+                  ),
+
+                ],
+              ),
+
+
+              Column(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      height: 50,
+                      width: 30,
+                      decoration: BoxDecoration(
+                          color: Colors.red,
+                          borderRadius: BorderRadius.circular(0)),
+                    ),
+                  ),
+                  Container(
+                    height: 70,
+                    width: 30,
+                    decoration: BoxDecoration(
+                        color: Colors.red,
+                        borderRadius: BorderRadius.circular(0)),
+                  ),
+                ],
+              ),
+              Column(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      height: 50,
+                      width: 140,
+                      color: Colors.blue,
+                    ),
+                  ),
+                  Container(
+                    height: 50,
+                    width: 140,
+                    color: Colors.blue,
+                  ),
+                ],
+              ),
+              Column(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      height: 50,
+                      width: 30,
+                      decoration: BoxDecoration(
+                          color: Colors.black,
+                          borderRadius: BorderRadius.circular(0)),
+                    ),
+                  ),
+                  Container(
+                    height: 70,
+                    width: 30,
+                    decoration: BoxDecoration(
+                        color: Colors.black,
+                        borderRadius: BorderRadius.circular(0)),
+                  ),
+                ],
+              ),
+
+            ],
+
+          ),
         ],
       ),
-
     );
   }
 }
